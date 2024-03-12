@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css" />
+    <style >
+        
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        
+          
+        <div class="header-left" style="margin-left:80px" >
+            
+            
+            
+            <span> <img src="/static/images/logo.svg" alt="" height="50px" width="70px"  ></span>
+        </div>
+        <div style="margin-left:1px">
+            <span  > <input type="search" ></span>
+           
+        </div>
+        <div class="header-center">
+            <nav><span ><a href="homee" >Home</a></span>
+                <span><a href="learn">learn</a></span>
+               
+                <span><a href="practice">practice</a></span>
+                <span><a href="jobs">jobs</a></span>
+                
+            </nav>
+        </div>
+        <div class="header-right">
+            
+            <span><a href="login" class="link">login</a></span>
+            
+
+        </div>
+    </header>
+    <section>
+        {% block middle %}
+
+
+        {% endblock %}
+
+    </section>
+    
+    <footer>
+        <div>
+        <div class="left-panel">
+            <div>
+           
+            <div class="title">ABOUT</div>
+            <div>contact</div>
+            <div>about us</div>
+            <div> carrer</div>
+            <div>corporate information</div>
+        </div>
+
+        
+       
+        <div>
+            <div class="title">HELP</div>
+            <div>
+            <div>contact us</div>
+            <div>about us</div>
+            <div>careers</div>
+        </div>
+        
+        <div>
+            <div class="title">POLICY </div>
+            <div>
+            <div> contact us</div>
+            <div>about us</div>
+        
+        </div>
+      
+       </div>
+       </div>
+       <div>
+            <div class="right-panel">
+                <div>
+
+                    <div class="title"> Mail us:</div>
+                    <div>info@.in</div>
+                </div>
+                
+            
+            <div>
+                <div class="title"> registered offic address:</div>
+                <div>
+
+                building alvssa
+
+                outer road
+
+                bengluru,560103,
+
+                telephone:044-45612700
+               </div>
+            
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

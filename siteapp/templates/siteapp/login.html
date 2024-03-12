@@ -1,0 +1,49 @@
+{% extends 'siteapp/layout.html' %}
+{% block middle %}
+
+<nav>
+           
+</nav>    
+
+<main>
+        
+
+
+    <form action=".py">
+    <h3>Register User</h3>
+    <div >
+        <label for="username">user name</label>
+        <div>
+            <input type="text" class="form-control" name="username">
+        </div>
+    </div>
+    <div >
+        <label  for="password"> Password</label>
+        <div>
+            <input type="password" class="form-control" name="password">
+        </div>
+</div>
+<div>
+    <label  for="city">your city</label>
+    <div>
+        <select name="city" class="form-select">
+            <option value="">select your city</option>
+            <option value="">delhi</option>
+            <option value="">indore</option>
+            <option value="">bhopal</option>
+            <option value="">jabalpur</option>
+        </select>
+    </div>
+</div>
+<div >
+    <label for="subscribe" >subscribe</label>
+    <div >
+        <input type="checkbox"  name="subscribe"><label>yes</label>
+    </div>
+</div>
+<div>
+    <button >Register</button>
+</form>
+</div>
+</main>
+{% endblock %}

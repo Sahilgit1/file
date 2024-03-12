@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+header {
+    width: 100%;
+    
+    background-color: rgb(249, 235, 235);
+    color: rgb(68, 105, 184);
+    padding: 10px;
+    font-size: 24px;
+    /* display: grid;
+   grid-template-columns: 3fr 6fr 3fr; */
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+    position: fixed;
+    top: 0px;
+
+}
+
+.header-left {
+    margin-left: 0px;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.header-center span {
+    margin-right: 25px;
+    
+
+}
+
+
+.header-right span {
+    margin-right: 25px;
+}
+
+/* when span are below div then we have to use tild~ */
+/* if they are inside the use space  */
+section {
+    margin-top: 50px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 6fr 6fr ;
+}
+section nav{
+    margin-top: 80px;
+}
+section main{
+    margin-top: 80px;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 6fr ;
+    background-color: rgb(102, 111, 215);
+    color: white;
+    padding: 10px;
+    font-family: Arial;
+}
+
+.left-panel {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr  ;
+}
+
+.right-panel {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    border-left: 1px dotted white;
+    padding-left: 20px;
+
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.title~div {
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
